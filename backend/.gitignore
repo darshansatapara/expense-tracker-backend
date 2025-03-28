@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.sqlite
+*.sqlite3
+db.json
+
+# Build directories
+build/
+dist/
+coverage/
+.DS_Store
+
+# IDE settings and backups
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.backup
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+.vscode-test/
+
+# Local config files
+*.local
+*.log
+
+# Lock files
+package-lock.json
